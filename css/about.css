@@ -1,0 +1,143 @@
+.bgcolor{
+    background-color: #ff712d;
+    height: 100%;
+    width: 100%;
+    margin: 100%;
+}
+.intractive{
+    margin: 100px;
+}
+.cards{
+    background-color: white;
+}
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+.snip1559 {
+  font-family: 'Lato', Arial, sans-serif;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 250px;
+  max-width: 310px;
+  width: 100%;
+  background-color: #ffffff;
+  color: #2B2B2B;
+  text-align: center;
+  font-size: 16px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+.snip1559 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.snip1559 .profile-image {
+  padding: 15% 10% 0;
+}
+
+.snip1559 .profile-image img {
+  max-width: 100%;
+  vertical-align: top;
+  position: relative;
+  border-radius: 0%;
+  max-width: 50%;
+}
+
+.snip1559 figcaption {
+  padding: 5% 10% 15%;
+}
+
+.snip1559 h3 {
+  font-family: 'Oswald';
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 3px 0;
+}
+
+.snip1559 h5 {
+  font-weight: 400;
+  margin: 0;
+  text-transform: uppercase;
+  color: #888;
+  letter-spacing: 1px;
+}
+
+.snip1559 .icons i {
+  color: #999;
+  display: inline-block;
+  margin-right: 5px;
+  font-size: 1.5em;
+}
+
+.snip1559 .icons i:hover {
+  color: #555;
+}
+
+.snip1559 .icons i a {
+  text-decoration: none;
+}
+#column{
+    width:100%;
+    text-align: center;
+    margin-left: 20%;
+}
+#column1{
+    width:100%;
+    text-align: center;
+    margin-left: 40%;
+}
+.snip1559.cards.profile-image.size{
+    width: 500px;
+    height: 500px;
+}
+#columnvideo{
+    width:100%;
+    text-align: center;
+    margin-left: 0%;
+}
+.bg{
+    background-color: #fd7e14;
+    padding: 10px;
+}
+.img2{
+    padding: 25px;
+}
+.navback{
+    background-color: #ffffff;
+    font-size: 25px;
+    margin: 20px;
+}
+.navcontent{
+    margin-left: 10px;
+}
+.middle{
+    text-align: center;
+    
+}
+.gray{
+  background-color: #f2f2f2;
+  color: #0b0b0b;
+}
+/*Carousel CSS for Mobile View*/
+@media (max-width: 425px){
+  #banner-one img{
+    background-image: url("/images/mobile_banner1.jpg") !important;
+  }
+  
+  #banner-two img{
+    background-image: url("/images/mobile_banner2.jpg") !important;
+  }
+  
+  #banner-three img{
+    background-image: url("/images/mobile_banner3.jpg") !important;
+  }
+  
+  #banner-four img{
+    background-image: url("/images/mobile_banner4.jpg") !important;
+  }
+}

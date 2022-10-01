@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website </title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/demo.css">
+    <link rel="stylesheet" href="fontawesome-free-6.1.1-web/css/all.css">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md  sticky-top navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="css/Images/logo-1.png" width="200" height="50"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse mb-auto navbar-custom" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="web.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="about.html">About us</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Explore
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="Trainers.html">Trainers</a></li>
+                        <li><a class="dropdown-item" href="Studentprojects.html">Students Projects</a></li> 
+                    </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="course.html">Courses</a>
+                    </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="demo.html">Book a free demo</a>
+                </li>
+            </ul>
+            
+            <div class="mx-2">
+            <a type="button" class="btn text-light" href="contact.html" style="background:#1418fd" >Event Registration</a>
+          
+        </div>
+        </div>
+    </div>
+</nav>
+    <section class="h-100 org">
+        <div class="container col-md-12 py-5 h-100">
+          <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-md-12">
+              <div class="card card-registration my-4">
+                <div class="row g-0">
+                  <div class="col-md-6 d-none d-xl-block">
+                    <img src="css/Images/ghanastudents.jpg"
+                      alt="Sample photo" class="img-fluid h-100"
+                      style="border-top-left-radius: .25rem; border-bottom-left-radius: .25rem;" />
+                  </div>
+                  <div class="col-md-6">
+                    <div class="card-body p-md-5 text-black">
+                        <form name="submit-to-google-sheet" id="myformss">
+                      <h3 class="mb-5 text-uppercase">Book A Free Demo</h3>
+      
+                      <div class="row">
+                        <div class="col-md-12 mb-4">
+                          <div class="form-outline">
+                            <input type="text" id="Parent's Name" class="form-control form-control-lg" name="Parent's Name"/>
+                            <label class="form-label" for="form3Example1m">Parent's Name</label>
+                          </div>
+                        </div>
+                        
+      
+                      <div class="row">
+                        <div class="col-md-12 mb-4">
+                          <div class="form-outline">
+                            <input type="tel" id="Parent's Mobile Number" class="form-control form-control-lg" name="Parent's Mobile Number" />
+                            <label class="form-label" for="form3Example1m1">Parent's Mobile Number</label>
+                          </div>
+                        </div>
+                        <div class="form-outline mb-4">
+                            <input type="email" id="Parent's Email ID" class="form-control form-control-lg" name="Parent's Email ID"/>
+                            <label class="form-label" for="form3Example97">Parent's Email ID</label>
+                          </div>
+                          <div class="row">
+                            <div class="col-md-12 mb-4">
+                              <div class="form-outline">
+                                <input type="text" id="Student Name" class="form-control form-control-lg" name="Student Name"/>
+                                <label class="form-label" for="form3Example1m">Student Name</label>
+                              </div>
+                            </div>
+                        <div class="col-md-12 mb-4">
+      
+                          <select class="select w-100 h-100" id="Student Grade" name="Student Grade">
+                            <option value="Basic 1">Basic 1</option>
+                            <option value="Basic 2">Basic 2</option>
+                            <option value="Basic 3">Basic 3</option>
+                            <option value="Basic 4">Basic 4 </option>
+                            <option value="Basic 5">Basic 5 </option>
+                            <option value="Basic 6">Basic 6 </option>
+                            <option value="JHS 1">JHS 1 </option>
+                            <option value="JHS 2">JHS 2 </option>
+                            <option value="JHS 3">JHS 3 </option>
+                            <option value="SHS 1">SHS 1 </option>
+                            <option value="SHS 2">SHS 2 </option>
+                            <option value="SHS 3">SHS 3 </option>
+                          </select>
+                          <label class="form-label" for="form3Example97">Student Grade</label>
+                        </div>
+                      </div>
+      
+                     
+      
+                      <div class="d-flex justify-content-end pt-3 p-md-5 h-40">
+                        
+                        <button onclick="myFunction()" value="Reset form" type="submit" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                           <strong> Submit</strong>
+                          </button>
+                      </div>
+                    </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Form Submission</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Form submitted successfully
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container-fluid my-3">
+  <!-- Footer -->
+  <footer
+          class="text-center text-lg-start text-white"
+          style="background-color: #929fba"
+          >
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Links -->
+      <section class="">
+        <!--Grid row-->
+        <div class="row">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">
+              Maurya Education
+            </h6>
+            <p>
+              Maurya Education is focused to make 21st-century skills like Mental Arithmetic skills, logical thinking, problem-solving skills and computational thinking skill available for the students of Ghana and other African countries.
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <!-- Grid column -->
+         
+          <!-- Grid column -->
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <!-- Grid column -->
+          <hr class="w-100 clearfix d-md-none" />
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+            <p><i class="fas fa-home mr-3"></i> Maurya Education Limited
+              1st, 5th Close, New Achimota, Accra, Ghana,</p>
+            <p><i class="fas fa-envelope mr-3"></i>  mauryaafrica@gmail.com</p>
+            <p><i class="fas fa-phone mr-3"></i>   +233-245211395, +233-245211396</p>
+           
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Follow us</h6>
+
+            <!-- Facebook -->
+            <a
+               class="btn btn-primary btn-floating m-1"
+               style="background-color: #3b5998"
+               href="#!"
+               role="button"
+               ><i class="fab fa-facebook-f"></i
+              ></a>
+
+            <!-- Twitter -->
+            <a
+               class="btn btn-primary btn-floating m-1"
+               style="background-color: #55acee"
+               href="#!"
+               role="button"
+               ><i class="fab fa-twitter"></i
+              ></a>
+
+            <!-- Google -->
+            <a
+               class="btn btn-primary btn-floating m-1"
+               style="background-color: #dd4b39"
+               href="#!"
+               role="button"
+               ><i class="fab fa-google"></i
+              ></a>
+
+            <!-- Instagram -->
+            <a
+               class="btn btn-primary btn-floating m-1"
+               style="background-color: #ac2bac"
+               href="#!"
+               role="button"
+               ><i class="fab fa-instagram"></i
+              ></a>
+
+            <!-- Linkedin -->
+            <a
+               class="btn btn-primary btn-floating m-1"
+               style="background-color: #0082ca"
+               href="#!"
+               role="button"
+               ><i class="fab fa-linkedin-in"></i
+              ></a>
+            <!-- Github -->
+            <a
+               class="btn btn-primary btn-floating m-1"
+               style="background-color: #333333"
+               href="#!"
+               role="button"
+               ><i class="fab fa-github"></i
+              ></a>
+          </div>
+        </div>
+        <!--Grid row-->
+      </section>
+      <!-- Section: Links -->
+    </div>
+    <!-- Grid container -->
+
+  
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+</div>
+<!-- End of .container -->
+        <script src="js/bootstrap.js"></script>
+        <script src="js/jquery-3.6.0.js"></script>
+        <script src="js/demo.js"></script>
+</body>
+
+</html>

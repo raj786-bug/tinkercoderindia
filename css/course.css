@@ -1,0 +1,26 @@
+.column3{
+   
+        width:100%;
+        text-align: center;
+        margin-left: 10%;
+    
+        border-radius: 25px;
+        background-color: white;
+        color: black;
+    
+}
+.courseintro4{
+    width:100%;
+    text-align: center;
+    margin-left: 3%;
+
+    border-radius: 25px;
+    background-color: white;
+    color: black;
+}
+.background{
+    background-color: #ff712d;
+}
+.img{
+    height:50%;
+}
